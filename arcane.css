@@ -17,7 +17,7 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family:'LOLR',serif;
+	font-family:'LOLR',sans-serif;
 }
 body{
 	background-color: #EDE0CE;
@@ -77,7 +77,7 @@ b{
 
 }
 h2 {
-	font-family: 'LOLR';
+	font-family: 'LOL';
 	font-size: 40px;
 }
 .wrapper{
