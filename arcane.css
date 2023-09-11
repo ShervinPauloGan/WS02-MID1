@@ -46,7 +46,7 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
-    background: url(materials/glasstop.png) center center / 100% 100% no-repeat;
+    background: url(assets/glasstop.png) center center / 100% 100% no-repeat;
     z-index: 5;
   }
  .bottomG {
@@ -55,7 +55,7 @@ body{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    background: url(materials/glasstop.png)  center center / 100% 100% no-repeat;
+    background: url(assets/glasstop.png)  center center / 100% 100% no-repeat;
     transform: scaleY(-1);
 
  }
@@ -63,7 +63,7 @@ body{
 	height: 100%;
     width: 100%;
     position: absolute;
-	background: url(materials/background.jpg)  center center / 100% 100% no-repeat;
+	background: url(assets/background.jpg)  center center / 100% 100% no-repeat;
 	background-size: cover;
 	filter: brightness(0.5);
 }
