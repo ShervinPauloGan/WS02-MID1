@@ -108,6 +108,74 @@ margin: 0 auto;
 padding: 100px;
 font-size: 20px;
 }
+
+.paintw {
+	position: absolute;
+	height: auto;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    left: 750px;
+   	transform: translateY(200px);
+}
+.paintr{
+	height: auto;
+    width: auto;
+    margin: 30px;
+    position: absolute;
+}
+.paint{
+	width: auto;
+	z-index: -5;
+	position: relative;
+	
+}
+
+.paintw2 {
+	position: absolute;
+	height: auto;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    left: -750px;
+   	transform: translateY(-200px);
+}
+.paintr2{
+	height: auto;
+    width: auto;
+    margin: 30px;
+    position: absolute;
+}
+.paint2{
+	width: auto;
+	z-index: -5;
+	position: relative;
+	
+}
+.paintw3 {
+	position: absolute;
+	height: auto;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    left: -750px;
+   	transform: translateY(700px);
+}
+.paintr3{
+	height: auto;
+    width: auto;
+    margin: 30px;
+    position: absolute;
+}
+.paint3{
+	width: auto;
+	z-index: -5;
+	position: relative;
+	
+}
 .about{
 	
 	max-width: 100%;
@@ -250,6 +318,32 @@ font-family: 'LOL';
     margin: 20px;
     cursor: pointer;
 }
+.card2{
+    height: 350px;
+    width: 220px;
+    background-color: #242526;
+    margin: 30px;
+}
+.card2:hover{
+    height: 410px;
+    width: 280px;
+    background-color: #242526;
+    cursor: pointer;
+}
+.card3{
+	color: black;
+    height: 350px;
+    width: 220px;
+    background-color: #3D5FB6;
+    margin: 30px;
+}
+.card3:hover{
+	color: black;
+    height: 410px;
+    width: 280px;
+    background-color: #3D5FB6;
+    cursor: pointer;
+}
 .containercard{
 	color: #EDE0CE;
 }
@@ -262,12 +356,25 @@ font-family: 'LOL';
 .imgwrap{
 	height:60%;
 }
+.bubbles{
+	margin: 0 auto;
+	width: 100%;
+	border: 5px solid #FFEF54;
+	height: 100%;
+}
+.gojo{
+	margin: 0 auto;
+	width: 100%;
+	border: 5px solid #D6D6D6;
+	height: 100%;
+}
 .eren{
 	margin: 0 auto;
 	width: 100%;
 	border: 5px solid #C9985C;
+	height: 100%;
 }
-video{
+.bgfog{
 	transform: scaleX(-1);
 	opacity: 0.3;
 	z-index: -4;
@@ -299,6 +406,7 @@ footer{
     position: relative;
    
 }
+
 footer ul{
 text-align: center;
 }
