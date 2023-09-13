@@ -24,7 +24,7 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family:'LOLR''PopR',serif;
+	font-family:'LOLR','PopR',serif;
 }
 
 body{
@@ -214,7 +214,7 @@ font-size: 20px;
 	text-align: center;
 }
 h2 {
-	font-family: 'LOL' 'PopB';
+	font-family: 'LOL', 'PopB';
 	font-size: 40px;
 }
 p{
@@ -247,7 +247,7 @@ margin: 0;
 a{
 color: #C9985C;
 text-decoration: none;
-font-family: 'LOL''PopB';
+font-family: 'LOL','PopB';
 }
 
 .wrap{
@@ -299,7 +299,7 @@ font-family: 'LOL''PopB';
 }
 .h3card{
 	color: #EDE0CE;
-	font-family: 'LOL''PopB';
+	font-family: 'LOL','PopB';
 	text-align: center;
 }
 
@@ -364,7 +364,7 @@ footer ul li{
 width: auto;
 display: inline-block;
 margin: 0 5px;
-font-family: 'LOL' 'PopB';
+font-family: 'LOL', 'PopB';
 font-size: 20px;
 color: #EDE0CE;
 }
