@@ -102,7 +102,7 @@ body{
 
 .content{
 color: #08132E;
-height: 1800px;
+height: 1900px;
 max-width: 1200px;
 margin: 0 auto;
 padding: 100px;
@@ -306,40 +306,40 @@ font-family: 'LOL';
     justify-content: center;
 }
 .card1{
-    height: 350px;
+    height: 400px;
     width: 220px;
     background-color: #5F4123;
     margin: 30px;
 }
 .card1:hover{
-    height: 410px;
+    height: 460px;
     width: 280px;
     background-color: #5F4123;
     margin: 20px;
     cursor: pointer;
 }
 .card2{
-    height: 350px;
+    height: 400px;
     width: 220px;
     background-color: #242526;
     margin: 30px;
 }
 .card2:hover{
-    height: 410px;
+    height: 460px;
     width: 280px;
     background-color: #242526;
     cursor: pointer;
 }
 .card3{
 	color: black;
-    height: 350px;
+    height: 400px;
     width: 220px;
     background-color: #3D5FB6;
     margin: 30px;
 }
 .card3:hover{
 	color: black;
-    height: 410px;
+    height: 460px;
     width: 280px;
     background-color: #3D5FB6;
     cursor: pointer;
