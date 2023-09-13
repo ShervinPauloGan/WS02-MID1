@@ -1,24 +1,30 @@
 @font-face {
 	font-family: 'spiegel';
 	src: url(font/spiegel.ttf);
-
-}
-@font-face {
 	font-family: 'LOL';
 	src: url(font/BeaufortforLOL-Bold.ttf);
+	font-family: 'LOLR';
+	src: url(font/BeaufortforLOL-Regular.ttf);
+	font-family: 'PopR';
+	src: url(font/Poppins-Regular.ttf)
+	font-family: 'PopB';
+	src: url(font/Poppins-Bold.ttf)
 
 }
 @font-face {
-	font-family: 'LOLR';
-	src: url(font/BeaufortforLOL-Regular.ttf);
+	
 
 }
-@import url('https://fonts.googleapis.com/css2?family-Poppins:wght@400;600;900&display=swap');
+@font-face {
+	;
+
+}
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family:'LOLR','Poppins',serif;
+	font-family:'LOLR''PopR',serif;
 }
 
 body{
@@ -208,7 +214,7 @@ font-size: 20px;
 	text-align: center;
 }
 h2 {
-	font-family: 'LOL', 'Poppins';
+	font-family: 'LOL' 'PopB';
 	font-size: 40px;
 }
 p{
@@ -241,7 +247,7 @@ margin: 0;
 a{
 color: #C9985C;
 text-decoration: none;
-font-family: 'LOL', 'Poppins';
+font-family: 'LOL''PopB';
 }
 
 .wrap{
@@ -293,7 +299,7 @@ font-family: 'LOL', 'Poppins';
 }
 .h3card{
 	color: #EDE0CE;
-	font-family: 'LOL','Poppins';
+	font-family: 'LOL''PopB';
 	text-align: center;
 }
 
@@ -358,7 +364,7 @@ footer ul li{
 width: auto;
 display: inline-block;
 margin: 0 5px;
-font-family: 'LOL', 'Poppins';
+font-family: 'LOL' 'PopB';
 font-size: 20px;
 color: #EDE0CE;
 }
