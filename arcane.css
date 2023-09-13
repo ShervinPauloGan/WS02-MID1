@@ -5,7 +5,7 @@
 }
 @font-face {
 	src: url(font/BeaufortforLOL-Bold.ttf);
-	font-family: 'LOLR';
+	font-family: 'LOL';
 }
 @font-face {
 	font-family: 'PopB';
@@ -45,7 +45,8 @@ body{
     position: absolute;
 	background: url(assets/background.jpg)  center center / 100% 100% no-repeat;
 	background-size: cover;
-	filter: brightness(0.4);
+	filter: brightness(0.5);
+	animation: animatetwo 4s infinite;
 }
 .topG{
 	height: 20%;
@@ -90,7 +91,8 @@ body{
 	right: -20%;
 	height: 100%;
 	width: 90%;
-	animation: animatetwo 4s infinite;
+	filter: brightness(0.7);
+	animation: animatefade 3s;
 }
 @keyframes animatetwo {
     50% {
@@ -109,7 +111,7 @@ body{
 	width: calc(200% - 110px);
 	top: 80px;
 	right: 50%;
-	animation: animatefade 4s;
+	animation: animatefade 3s;
 	
 }
 @keyframes animatefade {
@@ -129,7 +131,7 @@ body{
 	background-color: black;
 	opacity: 0.7;
 	transform: translateX(-100px);
-	height: 1850px;
+	height: 1950px;
 	width: 100%;
 	max-width: 1300px;
 	margin: 0 auto;
@@ -192,7 +194,8 @@ body{
 	background-color: #050C1A;
 	color: #FFFFFF;
 	padding: 35px;
-	border: 5px solid #5F4123;
+	border: 5px solid #ffffff;
+	box-shadow: 0 0 10px 5px #FF82F0;
 	text-align: center;
 }
 .abt2{
@@ -216,7 +219,8 @@ body{
 	background-color: #050C1A;
 	color: #FFFFFF;
 	padding: 35px;
-	border: 5px solid #5F4123;
+	border: 5px solid #ffffff;
+	box-shadow: 0 0 10px 5px #FF82F0;
 	text-align: center;
 }
 .abt3{
@@ -239,7 +243,8 @@ body{
 	background-color: #050C1A;
 	color: #FFFFFF;
 	padding: 35px;
-	border: 5px solid #5F4123;
+	border: 5px solid #ffffff;
+	box-shadow: 0 0 10px 5px #FF82F0;
 	text-align: center;
 }
 h2 {
@@ -258,6 +263,13 @@ max-width: 100%;
 width: 100%;
 float: left;
 border: 5px solid #5F4123;
+}
+img.big-image:hover{
+	max-width: 100%;
+	idth: 100%;
+	loat: left;
+	border: 5px solid #FFFFFF;
+	box-shadow: 0 0 10px 5px #FF82F0;
 }
 p.cap3on{
 font-size: 18px;
