@@ -1,24 +1,25 @@
 @font-face {
-	font-family: 'spiegel';
-	src: url(font/spiegel.ttf);
-	font-family: 'LOL';
-	src: url(font/BeaufortforLOL-Bold.ttf);
-	font-family: 'LOLR';
-	src: url(font/BeaufortforLOL-Regular.ttf);
-	font-family: 'PopR';
-	src: url(font/Poppins-Regular.ttf)
 	font-family: 'PopB';
 	src: url(font/Poppins-Bold.ttf)
 
 }
 @font-face {
-	
-
+	font-family: 'PopR';
+	src: url(font/Poppins-Regular.ttf);
 }
 @font-face {
-	;
-
+	font-family: 'LOLR';
+	src: url(font/BeaufortforLOL-Regular.ttf);
 }
+@font-face {
+	src: url(font/BeaufortforLOL-Bold.ttf);
+	font-family: 'LOLR';
+}
+@font-face {
+	font-family: 'spiegel';
+	src: url(font/spiegel.ttf);
+}
+
 
 *{
 	margin:0;
