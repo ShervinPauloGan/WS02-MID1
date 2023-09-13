@@ -13,15 +13,18 @@
 	src: url(font/BeaufortforLOL-Regular.ttf);
 
 }
+@import url('https://fonts.googleapis.com/css2?family-Poppins:wght@400;600;900&display=swap');
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family:'LOLR',serif;
+	font-family:'LOLR','Poppins',serif;
 }
 
 body{
-	background-color: #020202; /*Color Black*/
+	background-image: url(assets/BG.png); /*Color Black*/
+	background-size: cover;
+	height: 100%;
 }
 .container{
 	width:100%;
@@ -33,7 +36,7 @@ body{
     position: absolute;
 	background: url(assets/background.jpg)  center center / 100% 100% no-repeat;
 	background-size: cover;
-	filter: brightness(0.5);
+	filter: brightness(0.4);
 }
 .topG{
 	height: 20%;
@@ -75,7 +78,7 @@ body{
 	display: block;
 	position: relative;
 	top: 50px;
-	right: -30%;
+	right: -20%;
 	height: 100%;
 	width: 90%;
 	animation: animatetwo 4s infinite;
@@ -96,13 +99,13 @@ body{
 	height: 100%;
 	width: calc(200% - 110px);
 	top: 80px;
-	right: 30%;
+	right: 50%;
 	
 }
 
 .content{
 color: #08132E;
-height: 1900px;
+height: 1850px;
 max-width: 1200px;
 margin: 0 auto;
 padding: 100px;
@@ -118,63 +121,6 @@ font-size: 20px;
     justify-content: center;
     left: 750px;
    	transform: translateY(200px);
-}
-.paintr{
-	height: auto;
-    width: auto;
-    margin: 30px;
-    position: absolute;
-}
-.paint{
-	width: auto;
-	z-index: -5;
-	position: relative;
-	
-}
-
-.paintw2 {
-	position: absolute;
-	height: auto;
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    left: -750px;
-   	transform: translateY(-200px);
-}
-.paintr2{
-	height: auto;
-    width: auto;
-    margin: 30px;
-    position: absolute;
-}
-.paint2{
-	width: auto;
-	z-index: -5;
-	position: relative;
-	
-}
-.paintw3 {
-	position: absolute;
-	height: auto;
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    left: -750px;
-   	transform: translateY(700px);
-}
-.paintr3{
-	height: auto;
-    width: auto;
-    margin: 30px;
-    position: absolute;
-}
-.paint3{
-	width: auto;
-	z-index: -5;
-	position: relative;
-	
 }
 .about{
 	
@@ -262,7 +208,7 @@ font-size: 20px;
 	text-align: center;
 }
 h2 {
-	font-family: 'LOL';
+	font-family: 'LOL', 'Poppins';
 	font-size: 40px;
 }
 p{
@@ -295,7 +241,7 @@ margin: 0;
 a{
 color: #C9985C;
 text-decoration: none;
-font-family: 'LOL';
+font-family: 'LOL', 'Poppins';
 }
 
 .wrap{
@@ -331,14 +277,12 @@ font-family: 'LOL';
     cursor: pointer;
 }
 .card3{
-	color: black;
     height: 400px;
     width: 220px;
     background-color: #3D5FB6;
     margin: 30px;
 }
 .card3:hover{
-	color: black;
     height: 460px;
     width: 280px;
     background-color: #3D5FB6;
@@ -349,7 +293,7 @@ font-family: 'LOL';
 }
 .h3card{
 	color: #EDE0CE;
-	font-family: 'LOL';
+	font-family: 'LOL','Poppins';
 	text-align: center;
 }
 
@@ -384,13 +328,13 @@ font-family: 'LOL';
     width: 100%; /* Make the video width 100% to fit the header width */
     height: 100%;
     object-fit: cover;
-    filter: brightness(9);
+    filter: brightness(5);
     }
 footer{
 	position: absolute;
 	width: 100%;
 	height: 18%;
-	margin-top: 20px;
+	margin-top: 0px;
 	padding: 4% 20px;
 	background-color: #111111;
 }
@@ -414,7 +358,7 @@ footer ul li{
 width: auto;
 display: inline-block;
 margin: 0 5px;
-font-family: 'LOL';
+font-family: 'LOL', 'Poppins';
 font-size: 20px;
 color: #EDE0CE;
 }
